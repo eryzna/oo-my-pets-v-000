@@ -4,7 +4,7 @@ class Owner
   @@all=[]
 
 
-  def initialize (owner)
+  def initialize 
     @owner=owner
     @@all<<self
   end
@@ -14,7 +14,7 @@ class Owner
   end
 
   def self.count
-    #all.count
+    all.count
   end
 
 
