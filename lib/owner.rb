@@ -1,10 +1,11 @@
 class Owner
-  attr_accessor :pets
+  attr_accessor :pets, :owner
 
   @@all=[]
 
 
-  def initialize
+  def initialize (owner)
+    @owner=owner
     @@all<<self
 
   end
