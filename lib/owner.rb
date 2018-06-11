@@ -1,5 +1,6 @@
 class Owner
-  attr_accessor :pets, :owner #:species
+  attr_accessor :pets, :owner 
+  attr_writer :species
 
   @@all=[]
 
