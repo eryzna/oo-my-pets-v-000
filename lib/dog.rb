@@ -5,5 +5,9 @@ class Dog
     @name=name
     @mood=mood
   end
+
+  def name
+    @name
+  end
   # code goes here
 end
