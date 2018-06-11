@@ -32,9 +32,9 @@ class Owner
     @name
   end
 
-  def pets
-    @pets
-  end
+  #def pets
+    #@pets
+  #end
 
 
 end
