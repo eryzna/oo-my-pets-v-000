@@ -4,7 +4,7 @@ class Owner
   @@all=[]
 
 
-  def initialize (owner, species)
+  def initialize (owner, species, name)
     @owner=owner
     @species=species
     @@all<<self
@@ -23,7 +23,7 @@ class Owner
     self.all.clear
   end
 
-  #def species
-    #@species
-  #end
+  def species
+    @species
+  end
 end
