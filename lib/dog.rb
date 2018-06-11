@@ -1,11 +1,9 @@
 class Dog
   attr_accessor :mood
 
-  #attr_writer :name
-
-  def initialize(name) #mood=nervous)
+  def initialize(name, mood="nervous") #mood=nervous)
     @name=name
-    #@mood=mood
+    @mood=mood
   end
 
   def name
