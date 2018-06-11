@@ -1,17 +1,13 @@
 class Cat
   attr_accessor :mood
 
-  def initialize(name, mood)
+  def initialize(name, mood="nervous")
     @name=name
     @mood=mood
   end
 
   def name
     @name
-  end
-
-  def mood
-    @mood="nervous"
   end
   # code goes here
 end
