@@ -24,7 +24,7 @@ class Owner
   end
 
   def species (species)
-    owner.species=species
+    @species=species
   end
 
 
